@@ -1,13 +1,11 @@
 {
   "expo": {
-    "name": "Blank Template",
-    "slug": "projeto-sala",
+    "name": "github-stars",
+    "slug": "netodomingos",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [
-      "ios",
-      "android",
-      "web"
+      "android"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
@@ -17,14 +15,14 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.netodomingos.githubstars",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.netodomingos.githubstars",
+      "versionCode": 1
     }
   }
 }
